@@ -1,0 +1,5 @@
+
+#find /var -xdev -type f -ls |sort -rn --key=7|head -20
+#find / -type f -empty -exec rm -rf {}
+#finf /tmp -type d -exec rm -rf {}
+#find /var -type f -size +20M -size -50M -exec rm -rf {}
